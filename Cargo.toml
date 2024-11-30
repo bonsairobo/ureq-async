@@ -1,0 +1,15 @@
+[package]
+name = "ureq-async"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+json = ["ureq/json"]
+
+[dependencies]
+async-trait = "0.1.83"
+blocking = "1.6.1"
+bytes = "1.7.2"
+futures-lite = "2.3.0"
+serde = "1.0.210"
+ureq = "2.10.1"
